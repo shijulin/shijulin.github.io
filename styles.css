@@ -1,0 +1,68 @@
+:root {
+    --main-color: #669966;
+    --link-color: #406E96;
+}
+
+body {
+    background-color: Snow;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-position: outside;
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 0.3em
+}
+
+.page-container {
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.section {
+    margin: 10px 0;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.section-title {
+    cursor: pointer;
+}
+
+.section-content {
+    display: none;
+    overflow: hidden;
+}
+
+.about {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
